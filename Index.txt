@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FlexDesign Studio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>FlexDesign Studio (Web Edition)</h2>
+
+<div class="toolbar">
+  <button onclick="addRect()">Rectangle</button>
+  <button onclick="addCircle()">Circle</button>
+  <button onclick="addText()">Text</button>
+  <input type="file" id="imgUpload">
+  <button onclick="undo()">Undo</button>
+  <button onclick="clearCanvas()">Clear</button>
+</div>
+
+<canvas id="canvas" width="1000" height="550"></canvas>
+
+<script src="script.js"></script>
+</body>
+</html>
